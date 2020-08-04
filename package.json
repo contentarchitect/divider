@@ -1,0 +1,28 @@
+{
+  "name": "@contentarchitect/divider",
+  "version": "0.0.0",
+  "description": "Divider block for ContentArchitect editor",
+  "main": "dist/divider.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentarchitect/divider.git"
+  },
+  "keywords": [
+    "divider",
+    "line",
+    "seperator"
+  ],
+  "author": "Cihad Paksoy <cihadp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contentarchitect/divider/issues"
+  },
+  "homepage": "https://github.com/contentarchitect/divider#readme",
+  "devDependencies": {
+    "rollup-plugin-vue": "^5",
+    "rollup-plugin-vue-inline-svg": "^1.1.1"
+  }
+}
