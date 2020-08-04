@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/divider",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Divider block for ContentArchitect editor",
   "main": "dist/divider.js",
   "scripts": {
