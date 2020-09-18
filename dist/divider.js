@@ -8,6 +8,8 @@
     //
     //
     //
+    //
+    //
 
     var script = {};
 
@@ -94,9 +96,16 @@
       var _vm = this;
       var _h = _vm.$createElement;
       var _c = _vm._self._c || _h;
-      return _c("div", { staticClass: "divider" })
+      return _vm._m(0)
     };
-    var __vue_staticRenderFns__ = [];
+    var __vue_staticRenderFns__ = [
+      function() {
+        var _vm = this;
+        var _h = _vm.$createElement;
+        var _c = _vm._self._c || _h;
+        return _c("div", { staticClass: "divider" }, [_c("hr")])
+      }
+    ];
     __vue_render__._withStripped = true;
 
       /* style */

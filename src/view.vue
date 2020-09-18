@@ -1,5 +1,7 @@
 <template>
-	<div class="divider"></div>
+	<div class="divider">
+		<hr>
+	</div>
 </template>
 
 <script>
