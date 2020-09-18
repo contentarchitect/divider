@@ -149,7 +149,7 @@
     	}
 
     	toHTML () {
-    		return `<div class="divider"></div>`
+    		return `<div class="divider"><hr /></div>`
     	}
     }
 
