@@ -8,8 +8,6 @@
     //
     //
     //
-    //
-    //
 
     var script = {};
 
@@ -92,20 +90,11 @@
     const __vue_script__ = script;
 
     /* template */
-    var __vue_render__ = function() {
-      var _vm = this;
-      var _h = _vm.$createElement;
-      var _c = _vm._self._c || _h;
-      return _vm._m(0)
+    var __vue_render__ = function(_h, _vm) {
+      var _c = _vm._c;
+      return _c("hr")
     };
-    var __vue_staticRenderFns__ = [
-      function() {
-        var _vm = this;
-        var _h = _vm.$createElement;
-        var _c = _vm._self._c || _h;
-        return _c("div", { staticClass: "divider" }, [_c("hr")])
-      }
-    ];
+    var __vue_staticRenderFns__ = [];
     __vue_render__._withStripped = true;
 
       /* style */
@@ -115,7 +104,7 @@
       /* module identifier */
       const __vue_module_identifier__ = undefined;
       /* functional template */
-      const __vue_is_functional_template__ = false;
+      const __vue_is_functional_template__ = true;
       /* style inject */
       
       /* style inject SSR */
@@ -149,7 +138,7 @@
     	}
 
     	toHTML () {
-    		return `<div class="divider"><hr /></div>`
+    		return `<hr />`
     	}
     }
 

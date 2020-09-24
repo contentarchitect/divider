@@ -1,11 +1,11 @@
-.divider hr {
+[data-block=Divider] hr {
     display: flex;
     justify-content: center;
     border: none;
     height: auto;
 }
 
-.divider hr::before {
+[data-block=Divider] hr::before {
     content: "***";
     letter-spacing: 1em;
     margin-right: -1em;

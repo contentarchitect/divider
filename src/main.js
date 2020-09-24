@@ -12,6 +12,6 @@ export default class Divider extends Block {
 	}
 
 	toHTML () {
-		return `<div class="divider"><hr /></div>`
+		return `<hr />`
 	}
 }
